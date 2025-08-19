@@ -4,7 +4,7 @@
 Este es el repositorio del *Grupo 6*, cuyos integrantes son:
 
 * Byron Agurto - 202223544-6
-* Martín Layseca - 202330556 1
+* Martín Layseca - 202330556-1
 * Bianca León - 202330527-8
 * Joaquín Torres - 202330550-2
 * **Tutor**: IGNACIO ANDRES MUÑOZ MARTINEZ
