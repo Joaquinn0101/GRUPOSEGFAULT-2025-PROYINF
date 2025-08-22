@@ -13,7 +13,9 @@ Este es el repositorio del *Grupo 6*, cuyos integrantes son:
 
 > Obtener enlace desde el home de la wiki del repo.
 
-Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.cl/)
+Puede acceder a la Wiki mediante el siguiente [enlace](https://github.com/Joaquinn0101/GRUPOSEGFAULT-2025-PROYINF/wiki)
+
+//https://gitlab.inf.utfsm.cl/
 
 ## Videos
 
