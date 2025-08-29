@@ -24,4 +24,4 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://github.com/Joaqui
 
 ## Aspectos técnicos relevantes
 
-_Todo aspecto relevante cuando para poder usar el proyecto o consideraciones del proyecto base a ser entregado_
+commit
