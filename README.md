@@ -15,15 +15,12 @@ Este es el repositorio del *Grupo 6*, cuyos integrantes son:
 
 Puede acceder a la Wiki mediante el siguiente [enlace](https://github.com/Joaquinn0101/GRUPOSEGFAULT-2025-PROYINF/wiki)
 
-//https://gitlab.inf.utfsm.cl/
+/https://gitlab.inf.utfsm.cl/
 
 ## Videos
 
 > Reemplazar con los enlaces correspondientes
 
-* [Video presentación cliente](https://www.youtube.com)
-* [Video presentación avance 1](https://www.youtube.com/)
-* Etc ...
 
 ## Aspectos técnicos relevantes
 
