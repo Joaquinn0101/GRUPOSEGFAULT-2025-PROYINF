@@ -23,5 +23,3 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://github.com/Joaqui
 
 
 ## Aspectos técnicos relevantes
-
-commit
