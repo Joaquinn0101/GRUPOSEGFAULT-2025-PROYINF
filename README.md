@@ -11,7 +11,7 @@ Este es el repositorio del *Grupo 6*, cuyos integrantes son:
 
 ## Wiki
 
-Puede acceder a la Wiki dándo click en el siguiente enlace: [Disponible aquí](https://github.com/Joaquinn0101/GRUPOSEGFAULT-2025-PROYINF/wiki)
+Puede acceder a la Wiki dando click en el siguiente enlace: [Disponible aquí](https://github.com/Joaquinn0101/GRUPOSEGFAULT-2025-PROYINF/wiki)
 
 ## Avances del Hito en el TAG:
 
