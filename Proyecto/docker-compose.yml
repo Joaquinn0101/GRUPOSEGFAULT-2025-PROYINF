@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: proyecto-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: appdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # - ./db/init:/docker-entrypoint-initdb.d   # si usas scripts locales
+
+
+  backend:
+    build: ./backend
+    environment:
+      PGHOST: db          # ← nombre del servicio de Postgres
+      PGPORT: 5432
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      PGDATABASE: appdb
+      PORT: 3000
+      NODE_ENV: development
+    depends_on: [db]
+    ports: ["3000:3000"]
+    volumes:
+      - ./backend:/app     # hot-reload por bind mount
+      - /app/node_modules  # volumen anónimo para evitar conflictos en Windows
+
+  frontend:
+    build: ./frontend
+    environment:
+      VITE_API_BASE_URL: http://localhost:3000
+    depends_on: [backend]
+    ports: ["5173:5173"]
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  pgdata:
